@@ -15,7 +15,7 @@ To create your calculator, follow these steps:
 1. Create a copy of the file `source\oop-navbar.ts`, and open it with your text editor.
 2. At the bottom of the file, delete the example.
 3. Create a `CalculatorCore` object with no parameters, specifying the title of the navigation bar in a string-type parameter.
-4. Create a `CalculatorUIOptions` object. The first parameter is the CSS selector of the HTML element where you want to insert the calculator into the DOM. Optionally, specify the colors of the calculator with the following paramaters:
+4. Create a `CalculatorUIOptions` object. The first parameter is the CSS selector of the HTML element where you want to insert the calculator into the DOM. Optionally, specify the colors of the calculator with the following parameters:
    - Specify a CSS color value in the second parameter to determine the color of the calculator's background.
    - Specify a CSS color value in the third parameter to determine the color of the buttons.
    - Specify a CSS color value in the fourth parameter to determine the color of the calculator's display.
