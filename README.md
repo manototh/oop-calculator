@@ -1,4 +1,4 @@
-# oop-calculator
+# An object-oriented way to construct a basic calculator in JavaScript
 
 This is an exercise to construct a basic calculator in JavaScript using the principles of object-oriented programming (OOP).
 
