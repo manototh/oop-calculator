@@ -67,6 +67,7 @@ CalculatorCore.prototype.getInput = function () {
     return this.input;
 }
 
+// Calculator UI options
 class CalculatorUIOptions {
     constructor(calculatorSelector, calculatorBackgroundColor, buttonBackgroundColor, displayBackgroundColor, textColor) {
         this.calculatorSelector = calculatorSelector;
@@ -76,14 +77,6 @@ class CalculatorUIOptions {
         this.textColor = typeof (textColor) === "string" ? textColor : "";
     }
 }
-
-class CalculatorOptionsTypeError {
-    constructor(message) {
-        TypeError.call(this);
-        this.message = message;
-    }
-}
-
 
 // Calculator UI functionality
 class CalculatorUI {
