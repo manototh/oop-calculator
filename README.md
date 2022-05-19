@@ -12,7 +12,7 @@ For an example implementation of this calculator, see [OOP Basic Calculator](htt
 
 To create your calculator, follow these steps:
 
-1. Create a copy of the file `source\main.js`, and open it with your text editor.
+1. Create a copy of the file `source/main.js`, and open it with your text editor.
 2. At the bottom of the file, delete the example.
 3. Create a `CalculatorCore` object with no parameters.
 4. Create a `CalculatorUIOptions` object. The first parameter is the CSS selector of the HTML element where you want to insert the calculator into the DOM. Optionally, specify the colors of the calculator with the following parameters:
